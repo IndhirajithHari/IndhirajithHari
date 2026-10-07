@@ -14,8 +14,9 @@ Programming | CAD | AI | VibeCoder | Web Developer | Full Stack | Animation | ec
 $ cat learning.txt
 B.Tech
 
-$ cat interests.txt
-Anything
+$ cat adv-ice.txt
+do or die-
+but don't cry.!
 
 $ fortune
 LOVE TO INVENT
