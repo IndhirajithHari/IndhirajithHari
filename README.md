@@ -165,6 +165,26 @@
 
 ---
 
+### 💖 Support & Fuel the Inventions
+
+<div align="center">
+
+<p>
+  If you find my silicon EDA tools (<b>neuro-silicon</b>), GPU language (<b>mathi</b>), or bare-metal OS kernels (<b>agam-kernel</b>) valuable, consider fueling the late-night architecture and debugging sessions! ☕⚡
+</p>
+
+<a href="https://buymeacoffee.com/indhirajith" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" />
+</a>
+
+<br/><br/>
+
+[![BuyMeACoffee](https://img.shields.io/badge/Support%20on-Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/indhirajith)
+
+</div>
+
+---
+
 ### 💬 Fortune Cookie & Hacker Philosophy
 
 ```bash
