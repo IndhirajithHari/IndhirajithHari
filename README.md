@@ -154,12 +154,29 @@
     <img src="https://streak-stats.demolab.com/?user=IndhirajithHari&theme=tokyonight&hide_border=true&background=0d1117&mode=daily" alt="GitHub Streak" />
   </p>
 
-  <!-- Snake Eating Contributions (GitHub Action Output) -->
+</div>
+
+---
+
+### 🎮 Retro Arcade: Cyber-Snake Eating My 61-Day Streak
+
+<div align="center">
+
+  <p>
+    <img src="https://img.shields.io/badge/SCORE-131%20COMMITS-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Score Badge" />
+    <img src="https://img.shields.io/badge/LEVEL-61%20DAYS%20STREAK-39D353?style=for-the-badge&logo=target&logoColor=white" alt="Level Badge" />
+    <img src="https://img.shields.io/badge/DIFFICULTY-HARDCORE-FF5555?style=for-the-badge&logo=fire&logoColor=white" alt="Difficulty Badge" />
+  </p>
+
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IndhirajithHari/IndhirajithHari/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IndhirajithHari/IndhirajithHari/output/github-contribution-grid-snake.svg">
     <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/IndhirajithHari/IndhirajithHari/output/github-contribution-grid-snake.svg" width="100%" />
   </picture>
+
+  <p>
+    <sub>🐍 <i>The cyber-snake patrols the contribution grid, consuming commits to power the streak!</i> 👾</sub>
+  </p>
 
 </div>
 
