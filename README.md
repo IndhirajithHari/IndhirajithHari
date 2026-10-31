@@ -151,7 +151,7 @@
 
   <!-- Streak Stats -->
   <p align="center">
-    <img src="https://streak-stats.demolab.com/?user=IndhirajithHari&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com/?user=IndhirajithHari&theme=tokyonight&hide_border=true&background=0d1117&mode=daily" alt="GitHub Streak" />
   </p>
 
   <!-- Snake Eating Contributions (GitHub Action Output) -->
