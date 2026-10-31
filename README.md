@@ -141,10 +141,10 @@
   <table border="0">
     <tr>
       <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=IndhirajithHari&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Indhirajith's GitHub Stats" />
+        <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=IndhirajithHari&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Indhirajith's GitHub Stats" />
       </td>
       <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IndhirajithHari&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+        <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=IndhirajithHari&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
       </td>
     </tr>
   </table>
