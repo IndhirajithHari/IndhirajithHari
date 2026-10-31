@@ -25,6 +25,21 @@ jobs:
             dist/github-contribution-grid-snake.svg?color_snake=#0969da&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#58a6ff&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
+      - name: Strip letter artifacts (streak-only snake)
+        run: |
+          node -e '
+          const fs = require("fs");
+          ["dist/github-contribution-grid-snake.svg", "dist/github-contribution-grid-snake-dark.svg"].forEach(file => {
+            if (fs.existsSync(file)) {
+              let content = fs.readFileSync(file, "utf8");
+              content = content.replace(/<rect class="c c[0-9a-z]+" x="([0-9.]+)"/g, (m, x) => {
+                return parseFloat(x) < 706 ? `<rect class="c" x="${x}"` : m;
+              });
+              fs.writeFileSync(file, content);
+            }
+          });
+          '
+
       - name: Push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
