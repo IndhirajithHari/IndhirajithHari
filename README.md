@@ -28,6 +28,13 @@
     <img src="https://img.shields.io/badge/Location-India%20%F0%9F%87%AE%F0%9F%87%B3-orange?style=for-the-badge" alt="Location Badge"/>
   </p>
 
+  <!-- Live Telemetry Badges -->
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=IndhirajithHari&label=PROFILE+VIEWS&style=for-the-badge&color=0078D4" alt="Live Profile Views"/>
+    <img src="https://img.shields.io/badge/STATUS-🟢%20INVENTING%20IN%20LAB-00D26A?style=for-the-badge" alt="Live Status Badge"/>
+    <img src="https://img.shields.io/badge/TIMEZONE-IST%20(UTC%2B5:30)-blueviolet?style=for-the-badge&logo=clock&logoColor=white" alt="Timezone Badge"/>
+  </p>
+
 </div>
 
 ---
@@ -131,6 +138,33 @@
   </tr>
 </table>
 
+<br/>
+
+<details>
+  <summary><b>📐 Click to Expand: Systems & Silicon Architecture Specifications</b></summary>
+  <br/>
+
+  #### 🧠 `neuro-silicon` AI Floorplan Workflow
+  ```
+  [Verilog RTL] ──▶ [Yosys Synthesis] ──▶ [AI Floorplanning Agent] ──▶ [OpenLane / KLayout]
+                                                    │
+                                  ┌─────────────────┴─────────────────┐
+                                  ▼                                   ▼
+                       Macro Placement Strategy             Congestion & Wirelength Optimization
+  ```
+
+  #### 🛡️ `agam-kernel` Boot Pipeline
+  ```
+  [OpenSBI / Firmware] ──▶ [_start Kernel Entry] ──▶ [4-Level Paging] ──▶ [Task Scheduler] ──▶ [Ring 3 Userland]
+  ```
+
+  #### ⚡ `PAA-ISA` Microarchitecture Highlights
+  * **Base Core:** 64-bit RISC-V RV64GC-compatible execution pipeline.
+  * **Accelerators:** Custom hardware execution units tuned for parallel tensor and matrix operations.
+  * **Synthesis Target:** SkyWater 130nm process design kit (PDK) via OpenROAD & Magic.
+
+</details>
+
 ---
 
 ### 📊 Telemetry & Contribution Activity
@@ -158,13 +192,13 @@
 
 ---
 
-### 🎮 Retro Arcade: Cyber-Snake Eating My 61-Day Streak
+### 🎮 Retro Arcade: Cyber-Snake Eating My 68-Day Streak
 
 <div align="center">
 
   <p>
-    <img src="https://img.shields.io/badge/SCORE-131%20COMMITS-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Score Badge" />
-    <img src="https://img.shields.io/badge/LEVEL-61%20DAYS%20STREAK-39D353?style=for-the-badge&logo=target&logoColor=white" alt="Level Badge" />
+    <img src="https://img.shields.io/badge/SCORE-140%2B%20COMMITS-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Score Badge" />
+    <img src="https://img.shields.io/badge/LEVEL-68%20DAYS%20STREAK-39D353?style=for-the-badge&logo=target&logoColor=white" alt="Level Badge" />
     <img src="https://img.shields.io/badge/DIFFICULTY-HARDCORE-FF5555?style=for-the-badge&logo=fire&logoColor=white" alt="Difficulty Badge" />
   </p>
 

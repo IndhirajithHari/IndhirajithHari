@@ -47,3 +47,38 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout Repository for Streak Synchronization
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Auto-Update Daily Streak in README.md
+        run: |
+          node -e '
+          const fs = require("fs");
+          if (!fs.existsSync("README.md")) process.exit(0);
+          let readme = fs.readFileSync("README.md", "utf8");
+          const baseDate = new Date("2026-10-31T00:00:00Z");
+          const now = new Date();
+          const diffDays = Math.max(0, Math.floor((now - baseDate) / (1000 * 60 * 60 * 24)));
+          const streak = 61 + diffDays;
+          const score = 131 + (diffDays * 2);
+
+          readme = readme.replace(/Cyber-Snake Eating My \d+-Day Streak/g, `Cyber-Snake Eating My ${streak}-Day Streak`);
+          readme = readme.replace(/LEVEL-\d+%20DAYS%20STREAK-39D353/g, `LEVEL-${streak}%20DAYS%20STREAK-39D353`);
+          readme = readme.replace(/SCORE-\d+(\+)?%20COMMITS-58A6FF/g, `SCORE-${score}+%20COMMITS-58A6FF`);
+          fs.writeFileSync("README.md", readme);
+          '
+
+      - name: Commit and Push README Streak Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(arcade): auto-update daily streak [skip ci]"
+            git push origin main
+          else
+            echo "README streak is already up to date."
+          fi
